@@ -11,7 +11,7 @@ body {
   display: grid;
   margin-top: 2rem;
   grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 15vh);
   justify-content: center;
 }
 
@@ -19,6 +19,7 @@ body {
   background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid white;
   cursor: pointer;
+  height: 15vh;
   font-size: 2rem;
   outline: none;
 }
